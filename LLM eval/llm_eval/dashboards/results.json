@@ -1,0 +1,30 @@
+{
+  "total": 3,
+  "exact_match_accuracy": 1.0,
+  "results": [
+    {
+      "id": "sqrt_simple",
+      "input": "What is the square root of 25?",
+      "output": "Final Answer: 5.0",
+      "expected": "5",
+      "exact_match": true,
+      "length_ok": true
+    },
+    {
+      "id": "sqrt_expression",
+      "input": "What is the square root of 25 + 75?",
+      "output": "Final Answer: 10.0",
+      "expected": "10",
+      "exact_match": true,
+      "length_ok": true
+    },
+    {
+      "id": "no_context",
+      "input": "What is the square root of -1?",
+      "output": "Cannot take square root of negative number",
+      "expected": "Cannot",
+      "exact_match": true,
+      "length_ok": true
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "sqrt_simple",
+    "input": "What is the square root of 25?",
+    "expected": "5",
+    "notes": "Basic square root"
+  },
+  {
+    "id": "sqrt_expression",
+    "input": "What is the square root of 25 + 75?",
+    "expected": "10",
+    "notes": "Multi-step: addition then square root"
+  },
+  {
+    "id": "no_context",
+    "input": "What is the square root of -1?",
+    "expected": "Cannot",
+    "notes": "Should refuse or explain invalid input"
+  }
+]
